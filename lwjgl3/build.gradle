@@ -27,8 +27,8 @@ dependencies {
   implementation "com.badlogicgames.gdx-controllers:gdx-controllers-desktop:$gdxControllersVersion"
   implementation "com.badlogicgames.gdx:gdx-backend-lwjgl3:$gdxVersion"
   implementation "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
-  implementation 'com.github.Berstanio.gdx-graalhelper:gdx-svmhelper-backend-lwjgl3:398414d88f'
-  implementation 'com.github.Berstanio.gdx-graalhelper:gdx-svmhelper-extension-controllers-lwjgl3:398414d88f'
+  implementation 'com.github.Berstanio.gdx-graalhelper:gdx-svmhelper-backend-lwjgl3:-SNAPSHOT'
+  implementation 'com.github.Berstanio.gdx-graalhelper:gdx-svmhelper-extension-controllers-lwjgl3:-SNAPSHOT'
   implementation project(':core')
 }
 
